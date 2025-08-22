@@ -73,13 +73,13 @@ This helps in indexing all the python modules for intelligent suggestions while 
 - **Running a training** in headless mode (this will create a `logs` folder inside the main repository to log training results).
 
     ```bash
-    python scripts/train.py --task=Kangaroo-Locomotion-Flat-v0 --headless
+    python scripts/rsl_rl/train.py --task=Kangaroo-Locomotion-Flat-v0 --headless
     ```
 
 - **Playing the trained policy** while recording a video (inside the `logs` folder).
 
     ```bash
-    python scripts/play.py --task=Kangaroo-Locomotion-Flat-v0 --num_envs=8 --video --headless
+    python scripts/rsl_rl/play.py --task=Kangaroo-Locomotion-Flat-v0 --num_envs=8 --video --headless
     ```
 
 ## Code formatting
